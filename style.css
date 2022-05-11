@@ -1,0 +1,49 @@
+div .text-muted {
+  text-decoration: underline;
+}
+
+.smile {
+  background-color: gray;
+  height: 2em;
+  border: 2px black solid;
+}
+
+.hidesmile {
+  display: none;
+}
+
+.ballz {
+  border-radius: 50%;
+  background-color: red;
+  height: 10vw;
+  width: 10vw;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+
+div .ballz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div .border {
+  border-radius: 3px;
+  font-weight: 400;
+  max-width: 30vw;
+}
+
+.ballz:hover {
+  background-color: blue;
+  filter: drop-shadow(0px, 0px, 5px, black);
+  transition: .2s ease-in-out;
+}
+.offgreen {
+  background-color: lime;
+}
+
+.minicard {
+  max width: 15vw;
+}
